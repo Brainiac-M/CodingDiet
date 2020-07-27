@@ -1,0 +1,224 @@
+  /* headline background img :  <img src="" alt="" class="headline_img" /> */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,500&display=swap');
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      color: #000;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 1.6em;
+      background-color: #73c2fb;
+      width: 100vw;
+      overflow-x: hidden;
+  }
+  
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #4169e1;
+  }
+  
+  header ul {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-right: 10px;
+  }
+  
+  header li {
+      list-style: none;
+      padding: 7px;
+  }
+  
+  header a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+  }
+  
+  header a:hover {
+      color: #73c2fb;
+      transition: ease-in 0.3s;
+  }
+  
+  #hero {
+      width: 100%;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../images/headlineimg.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin-bottom: 70px;
+  }
+  
+  #hero h1 {
+      font-size: 40px;
+      color: #4169e1;
+      padding: 20px;
+  }
+  
+  #hero h4 {
+      font-weight: 100;
+      font-size: 13px;
+      color: #eee;
+  }
+  
+  #about h2 {
+      text-align: center;
+      font-size: 45px;
+      padding: 30px;
+      color: #4169e1;
+  }
+  
+  #about h3 {
+      color: #eee;
+      padding: 30px;
+      font-size: 30px;
+      font-weight: 700;
+  }
+  
+  .about-us {
+      display: flex;
+      width: 100%;
+      flex-direction: column-reverse;
+  }
+  
+  .about-us p,
+  .about-us img {
+      padding: 15px;
+      margin-right: 20px;
+  }
+  
+  .about-us p {
+      text-align: justify;
+  }
+  
+  #offer {
+      margin-top: 40px;
+  }
+  
+  .box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      text-align: justify;
+      border: 1px solid #000;
+      border-radius: 20px;
+      margin: 50px;
+      background-color: #4169e1;
+  }
+  
+  .box img {
+      width: 70%;
+      border: 1px solid #4169e1;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border-radius: 3px;
+  }
+  
+  .box h5 {
+      margin: 15px 0;
+      font-size: 20px;
+  }
+  
+  .box p {
+      margin-bottom: 70px;
+      text-align: justify;
+      width: 70%;
+  }
+  
+  #contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 50px;
+  }
+  
+  #contact h3 {
+      text-align: center;
+      font-size: 45px;
+      padding: 30px;
+      color: #4169e1;
+  }
+  
+  form {
+      background-color: #fff;
+      padding: 30px;
+      width: 95%;
+      border-radius: 10px;
+  }
+  
+  legend {
+      color: #575454b4;
+      padding: 10px;
+  }
+  
+  input {
+      margin: 10px
+  }
+  
+  #name {
+      float: left;
+      margin: 20px 0;
+      padding: 15px;
+      background-color: #eee;
+      border: 0;
+      border-radius: 2px;
+      width: 73vw;
+  }
+  
+  #email {
+      margin: 20px 0;
+      padding: 15px;
+      border: 0;
+      border-radius: 2px;
+      background-color: #eee;
+      width: 73vw;
+  }
+  
+  textarea {
+      background-color: #eee;
+      border-radius: 3px;
+      margin: 20px 0;
+      width: 75vw;
+      height: 25vh;
+      padding: 10px;
+  }
+  
+  #submit {
+      position: relative;
+      left: 40%;
+      font-size: larger;
+      padding: 10px;
+      background-color: #73c2fb;
+      border: 0;
+      border-radius: 3px;
+      margin-top: 20px;
+      font-weight: 700;
+      color: #fff;
+  }
+  
+  #submit:hover {
+      background-color: #4169e1;
+      transition: 0.7s;
+  }
+  
+  footer {
+      margin-top: 50px;
+      background-color: #4169e1;
+      padding: 20px;
+      text-align: center;
+  }

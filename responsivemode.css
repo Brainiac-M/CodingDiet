@@ -1,0 +1,200 @@
+ @media(min-width:800px) {
+     .about-us {
+         display: flex;
+         flex-direction: row;
+         align-content: center;
+     }
+     .about-us p,
+     .about-us img {
+         padding: 30px;
+     }
+     .about-us p {
+         text-align: justify;
+     }
+     .about-us img {
+         margin-left: 50px;
+         width: 500px;
+     }
+     #name {
+         float: left;
+         margin: 20px 0;
+         padding: 10px;
+         background-color: #eee;
+         border: 0;
+         border-radius: 2px;
+         width: 80vw;
+         font-size: 15px;
+     }
+     #email {
+         float: left;
+         margin: 20px 0;
+         padding: 10px;
+         background-color: #eee;
+         border: 0;
+         border-radius: 2px;
+         width: 80vw;
+         font-size: 15px;
+     }
+     textarea {
+         background-color: #eee;
+         border-radius: 3px;
+         margin: 20px 0;
+         width: 80vw;
+         height: 17vh;
+         font-size: 15px;
+         padding: 10px;
+     }
+ }
+ 
+ @media(min-width:1300px) {
+     header {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         position: fixed;
+         top: 0;
+         width: 100%;
+     }
+     header img {
+         width: 300px;
+     }
+     .main_nav li {
+         padding: 20px;
+         margin-right: 30px;
+     }
+     .main_nav a {
+         color: #fff;
+         text-decoration: none;
+         font-size: larger;
+     }
+     .main_nav a:hover {
+         color: #73c2fb;
+         transition: ease-in 0.3s;
+     }
+     #hero {
+         margin-top: 120px;
+     }
+     #hero h1 {
+         font-size: 70px;
+         padding-bottom: 50px;
+     }
+     #hero h4 {
+         font-size: 17px;
+     }
+     main {
+         width: 90%;
+     }
+     #about {
+         width: 100%;
+     }
+     #about h2 {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .about-us {
+         display: flex;
+         flex-direction: row;
+         align-content: center;
+     }
+     .about-us p,
+     .about-us img {
+         padding: 30px;
+     }
+     .about-us p {
+         text-align: justify;
+     }
+     .about-us img {
+         margin-left: 50px;
+         width: 500px;
+     }
+     .services {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         align-content: center;
+         width: 100%;
+         margin-left: 90px;
+     }
+     .box {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+         text-align: justify;
+         border: 1px solid #000;
+         border-radius: 10px;
+         margin: 30px;
+         margin-top: 50px;
+         padding: 0px;
+         background-color: #4169e1;
+     }
+     .box img {
+         width: 70%;
+         border: 1px solid #4169e1;
+         margin-top: 15px;
+         margin-bottom: 15px;
+         border-radius: 3px;
+     }
+     .box h5 {
+         margin: 15px 0;
+         font-size: 20px;
+     }
+     .box p {
+         margin-bottom: 70px;
+         text-align: justify;
+         width: 70%;
+     }
+     footer {
+         text-align: center;
+         font-size: smaller;
+     }
+     form {
+         margin-left: 160px;
+         max-width: 90vw;
+     }
+     #name {
+         float: left;
+         margin: 30px 0;
+         padding: 25px;
+         background-color: #eee;
+         border: 0;
+         border-radius: 2px;
+         width: 74.5vw;
+         font-size: 20px;
+     }
+     #email {
+         float: left;
+         margin: 30px 0;
+         padding: 25px;
+         background-color: #eee;
+         border: 0;
+         border-radius: 2px;
+         width: 74.5vw;
+         font-size: 20px;
+     }
+     textarea {
+         background-color: #eee;
+         border-radius: 3px;
+         margin: 20px 0;
+         width: 76.5vw;
+         height: 200px;
+         font-size: 20px;
+         padding: 10px;
+     }
+     #submit {
+         background-color: #73c2fb;
+         color: white;
+         border: none;
+         border-radius: 2px;
+         padding: 12px 36px;
+         font-weight: bold;
+         position: relative;
+         left: -5px;
+     }
+     #submit:hover {
+         background-color: #4169e1;
+         transition: 0.7s;
+     }
+ }
