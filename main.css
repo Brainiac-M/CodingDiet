@@ -55,7 +55,7 @@
       flex-direction: column;
       align-content: center;
       justify-content: center;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../images/headlineimg.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(headlineimg.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
